@@ -22,7 +22,6 @@ body {
     background-image: url(images/bg-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
 
     font-family: var(--ff__primary);
     text-align: center;
@@ -30,6 +29,8 @@ body {
     display: grid;
     place-content: center;
     height: 100vh;
+    width: auto;
+    position: relative;
 }
 
 li {
