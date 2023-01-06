@@ -109,7 +109,7 @@ li {
     height: 15px;
     border-radius: 1em;
     position: relative;
-    left: 475px;
+    left: 200px;
 }
 
 .sub_container_slider .range{
@@ -178,5 +178,9 @@ li {
         left: 475px;
         bottom: auto;
         border-radius: .5em .5em .5em -2em;
+    }
+
+    .slider_select {
+        left: 475px;
     }
 }
