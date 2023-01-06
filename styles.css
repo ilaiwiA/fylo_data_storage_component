@@ -82,8 +82,34 @@ li {
 
 .sub_container_slider {
     display: grid;
-    gap: .5em;
+    gap: .75em;
     font-size: .75em;
+    height: 55px;
+}
+
+.slider_background {
+    position: relative;
+    background-color: var(--very__dark__blue);
+    border-radius: .5em;
+    height: 20px;
+}
+
+.slider_gradient {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: .5em;
+    width: 81.5%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.slider_select {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 1em;
+    position: relative;
+    left: 475px;
 }
 
 .sub_container_slider .range{
