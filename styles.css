@@ -20,6 +20,7 @@ html {
 
 body {
     background-image: url(images/bg-mobile.png);
+    background-color: var(--background__blue);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -29,9 +30,6 @@ body {
     display: grid;
     place-content: center;
     height: 100vh;
-    width: auto;
-    position: relative;
-    overflow: hidden;
 }
 
 li {
@@ -152,7 +150,6 @@ li {
 
     body {
         background-image: url(images/bg-desktop.png);
-        background-color: var(--background__blue);
         background-size: contain;
         background-position: 0% 115%;
     }
